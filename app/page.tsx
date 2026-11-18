@@ -7,6 +7,8 @@ import Creators from "@/components/Creators";
 import Faq from "@/components/Faq";
 import Apply from "@/components/Apply";
 import Footer from "@/components/Footer";
+import type { AppProps } from 'next/app';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
